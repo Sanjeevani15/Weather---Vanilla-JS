@@ -9,7 +9,7 @@ searchbox.addEventListener("keypress", setQuery);
 function setQuery(evt) {
     if (evt.keyCode == 13) {
      getResults(searchbox.value);
-      // console.log(searchbox.value);
+      console.log(searchbox.value);
     }
   }
 
